@@ -3,8 +3,8 @@ import time
 
 waktu_sekarang = datetime.datetime.now()
 
-tanggal = waktu_sekarang.date()
 jam = waktu_sekarang.time()
+hari = waktu_sekarang.date()
 
-print(f"Sekarang tanggal: {tanggal.day}/{tanggal.month}/{tanggal.year}")
-print(f"Sekarang jam: {jam.hour}:{jam.minute}:{jam.second}")
+print(f"sekarang jam: {jam.hour}, menit: {jam.minute}, detik: {jam.second}")
+print(f"Sekarang tanggal: {hari.day}, bulan: {hari.month}, tahun: {hari.year}")
